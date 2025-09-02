@@ -19,7 +19,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-90"
         style={{
           backgroundImage:
-            "url(/lovable-uploads/7d29aa91-0457-4dfe-a647-3a3b86992d0f.png)",
+            "url(lovable-uploads/7d29aa91-0457-4dfe-a647-3a3b86992d0f.png)",
         }}
       />
 

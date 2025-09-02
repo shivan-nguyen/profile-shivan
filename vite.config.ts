@@ -4,17 +4,18 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // ⚠️ ĐỔI theo đúng tên repo GitHub của bạn
-const REPO_NAME = "ai-learner-folio";
+const REPO_NAME = "profile-shivan";   // <<< ĐÃ SỬA Ở ĐÂY
 
 export default defineConfig(({ mode }) => ({
   // Base cần cho GitHub Pages: https://<user>.github.io/<repo>/
   base: `/${REPO_NAME}/`,
 
   server: {
-    host: "::",   // cho phép LAN; giữ nguyên theo bạn
-    port: 3000,   // dev server 3000
+    host: "::",   // cho phép LAN; giữ nguyên
+    port: 3000,   // chạy dev server ở cổng 3000
   },
-  // Preview bản build (npm run preview) – tùy chọn
+
+  // Preview bản build (npm run preview)
   preview: {
     host: true,
     port: 3000,
